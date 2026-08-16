@@ -1,0 +1,9 @@
+
+Dear John Doe,
+
+We appreciate your feedback on our services. Your experience at 123 Elm Street, Springfield, was invaluable.
+If you have further concerns, please contact us at 555-1234 or email john.doe@example.com.
+Your ticket number is #12345.
+
+Best regards,
+Customer Service Team

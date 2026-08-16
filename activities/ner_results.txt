@@ -1,0 +1,6 @@
+Named Entity Recognition (NER) Results
+========================================
+Persons: ['John Doe', 'Jane Smith']
+Organizations: ['State', 'The Environmental Protection Agency', 'EPA']
+Dates: ['January 15th, 2023', 'February 3rd, 2023']
+Locations: ['Washington', 'D.C.', 'New York City']

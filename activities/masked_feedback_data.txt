@@ -1,0 +1,9 @@
+
+Dear [PERSON],
+
+We appreciate your feedback on our services. Your experience at 123 [LOC], [GPE], was invaluable.
+If you have further concerns, please contact us at [DATE] or email john.doe@example.com.
+Your ticket number is #[MONEY].
+
+Best regards,
+[ORG]

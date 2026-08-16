@@ -1,0 +1,7 @@
+# Junk / metadata
+__MACOSX/
+.DS_Store
+.Trash-0/
+
+# Jupyter
+.ipynb_checkpoints/
