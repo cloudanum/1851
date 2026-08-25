@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E74B5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="720" fill="#FFFFFF"/>
+  <!-- system prompt layer -->
+  <rect x="40" y="90" width="470" height="220" rx="14" fill="#DEEBF7" stroke="#1F3864" stroke-width="3"/>
+  <text x="275" y="135" text-anchor="middle" font-size="27" font-weight="bold" fill="#1F3864">SYSTEM PROMPT</text>
+  <text x="275" y="172" text-anchor="middle" font-size="23" font-weight="bold" fill="#2E74B5">the constitution</text>
+  <text x="275" y="215" text-anchor="middle" font-size="20" fill="#404040">how the agent behaves</text>
+  <text x="275" y="248" text-anchor="middle" font-size="20" fill="#404040">identity &#183; boundaries &#183; style</text>
+  <text x="275" y="282" text-anchor="middle" font-size="19" font-style="italic" fill="#7F7F7F">loaded once, persistent</text>
+  <!-- user prompt layer -->
+  <rect x="40" y="390" width="470" height="220" rx="14" fill="#E2EFDA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="275" y="435" text-anchor="middle" font-size="27" font-weight="bold" fill="#2E7D32">USER PROMPT</text>
+  <text x="275" y="472" text-anchor="middle" font-size="23" font-weight="bold" fill="#2E7D32">the stimulus</text>
+  <text x="275" y="515" text-anchor="middle" font-size="20" fill="#404040">what the agent should do</text>
+  <text x="275" y="548" text-anchor="middle" font-size="20" fill="#404040">this turn's task &#183; data &#183; question</text>
+  <text x="275" y="582" text-anchor="middle" font-size="19" font-style="italic" fill="#7F7F7F">changes every turn</text>
+  <!-- arrows into model -->
+  <path d="M 515,200 C 570,200 585,280 610,310" fill="none" stroke="#1F3864" stroke-width="5" marker-end="url(#arrB)"/>
+  <path d="M 515,500 C 570,500 585,420 610,390" fill="none" stroke="#2E7D32" stroke-width="5" marker-end="url(#arrB)"/>
+  <!-- model -->
+  <rect x="615" y="280" width="170" height="140" rx="70" fill="#1F3864"/>
+  <text x="700" y="345" text-anchor="middle" font-size="30" font-weight="bold" fill="#FFFFFF">LLM</text>
+  <text x="700" y="385" text-anchor="middle" font-size="19" fill="#BDD7EE">reasons under the</text>
+  <text x="700" y="408" text-anchor="middle" font-size="19" fill="#BDD7EE">constitution</text>
+  <!-- output -->
+  <path d="M 790,350 L 870,350" fill="none" stroke="#2E74B5" stroke-width="5" marker-end="url(#arrB)"/>
+  <text x="920" y="330" text-anchor="middle" font-size="21" font-weight="bold" fill="#1F3864">aligned</text>
+  <text x="920" y="358" text-anchor="middle" font-size="21" font-weight="bold" fill="#1F3864">output</text>
+  <text x="920" y="392" text-anchor="middle" font-size="18" fill="#7F7F7F">consistent voice,</text>
+  <text x="920" y="416" text-anchor="middle" font-size="18" fill="#7F7F7F">any task</text>
+  <!-- caption -->
+  <text x="500" y="680" text-anchor="middle" font-size="22" font-style="italic" fill="#595959">The diplomat: national policy (system) + the negotiation at hand (user)</text>
+</svg>

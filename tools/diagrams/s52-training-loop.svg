@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E74B5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="720" fill="#FFFFFF"/>
+  <!-- circular arrows between consecutive steps -->
+  <path d="M 645,110 C 720,140 740,185 738,228" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <path d="M 770,345 C 775,420 745,470 705,495" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <path d="M 635,608 C 555,655 445,655 370,612" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <path d="M 230,500 C 165,440 155,390 172,342" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <path d="M 235,232 C 235,160 295,115 345,100" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <!-- step boxes -->
+  <g fill="#DEEBF7" stroke="#2E74B5" stroke-width="3">
+    <rect x="350" y="32" width="300" height="95" rx="14"/>
+    <rect x="583" y="237" width="300" height="95" rx="14"/>
+    <rect x="494" y="505" width="300" height="95" rx="14"/>
+    <rect x="206" y="505" width="300" height="95" rx="14"/>
+    <rect x="117" y="237" width="300" height="95" rx="14"/>
+  </g>
+  <g font-size="24" font-weight="bold" fill="#1F3864" text-anchor="middle">
+    <text x="500" y="88">1 &#183; Initialize weights</text>
+    <text x="733" y="275">2 &#183; Forward pass</text>
+    <text x="733" y="308">&#8594; prediction &#375;</text>
+    <text x="644" y="561">3 &#183; Compute loss</text>
+    <text x="356" y="545">4 &#183; Backpropagate</text>
+    <text x="356" y="578">gradients</text>
+    <text x="267" y="275">5 &#183; Update</text>
+    <text x="267" y="308">weights</text>
+  </g>
+  <!-- center -->
+  <text x="500" y="350" text-anchor="middle" font-size="30" font-weight="bold" fill="#1F3864">repeat per epoch</text>
+  <text x="500" y="392" text-anchor="middle" font-size="23" fill="#595959">until loss plateaus</text>
+</svg>

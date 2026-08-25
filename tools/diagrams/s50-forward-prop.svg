@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E74B5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="720" fill="#FFFFFF"/>
+  <text x="500" y="55" text-anchor="middle" font-size="34" font-weight="bold" fill="#1F3864">Information flows left &#8594; right; no learning happens here</text>
+  <!-- connections input->hidden -->
+  <g stroke="#9DC3E6" stroke-width="2">
+    <line x1="172" y1="200" x2="438" y2="140"/><line x1="172" y1="200" x2="438" y2="290"/><line x1="172" y1="200" x2="438" y2="440"/><line x1="172" y1="200" x2="438" y2="590"/>
+    <line x1="172" y1="360" x2="438" y2="140"/><line x1="172" y1="360" x2="438" y2="290"/><line x1="172" y1="360" x2="438" y2="440"/><line x1="172" y1="360" x2="438" y2="590"/>
+    <line x1="172" y1="520" x2="438" y2="140"/><line x1="172" y1="520" x2="438" y2="290"/><line x1="172" y1="520" x2="438" y2="440"/><line x1="172" y1="520" x2="438" y2="590"/>
+  </g>
+  <!-- connections hidden->output -->
+  <g stroke="#9DC3E6" stroke-width="2">
+    <line x1="522" y1="140" x2="788" y2="270"/><line x1="522" y1="140" x2="788" y2="450"/>
+    <line x1="522" y1="290" x2="788" y2="270"/><line x1="522" y1="290" x2="788" y2="450"/>
+    <line x1="522" y1="440" x2="788" y2="270"/><line x1="522" y1="440" x2="788" y2="450"/>
+    <line x1="522" y1="590" x2="788" y2="270"/><line x1="522" y1="590" x2="788" y2="450"/>
+  </g>
+  <!-- highlighted path -->
+  <line x1="172" y1="360" x2="438" y2="290" stroke="#2E74B5" stroke-width="5"/>
+  <line x1="522" y1="290" x2="788" y2="270" stroke="#2E74B5" stroke-width="5"/>
+  <text x="305" y="290" text-anchor="middle" font-size="22" font-weight="bold" fill="#2E74B5">w</text>
+  <text x="655" y="245" text-anchor="middle" font-size="22" font-weight="bold" fill="#2E74B5">w</text>
+  <!-- nodes -->
+  <g fill="#DEEBF7" stroke="#2E74B5" stroke-width="3">
+    <circle cx="130" cy="200" r="42"/><circle cx="130" cy="360" r="42"/><circle cx="130" cy="520" r="42"/>
+    <circle cx="480" cy="140" r="42"/><circle cx="480" cy="290" r="42"/><circle cx="480" cy="440" r="42"/><circle cx="480" cy="590" r="42"/>
+    <circle cx="830" cy="270" r="42"/><circle cx="830" cy="450" r="42"/>
+  </g>
+  <g font-size="26" font-weight="bold" fill="#1F3864" text-anchor="middle">
+    <text x="130" y="209">x&#8321;</text><text x="130" y="369">x&#8322;</text><text x="130" y="529">x&#8323;</text>
+    <text x="480" y="149">f</text><text x="480" y="299">f</text><text x="480" y="449">f</text><text x="480" y="599">f</text>
+    <text x="830" y="279">&#375;&#8321;</text><text x="830" y="459">&#375;&#8322;</text>
+  </g>
+  <!-- layer captions -->
+  <text x="130" y="660" text-anchor="middle" font-size="24" font-weight="bold" fill="#595959">input layer</text>
+  <text x="480" y="695" text-anchor="middle" font-size="24" font-weight="bold" fill="#595959">hidden layers: z = &#931;w&#7522;x&#7522; + b, a = f(z)</text>
+  <text x="830" y="560" text-anchor="middle" font-size="24" font-weight="bold" fill="#595959">output &#375;</text>
+</svg>

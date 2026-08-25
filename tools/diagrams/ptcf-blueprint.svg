@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1000" height="720" fill="#FFFFFF"/>
+  <!-- quadrant boxes -->
+  <g stroke-width="3">
+    <rect x="60" y="60" width="400" height="230" rx="14" fill="#DEEBF7" stroke="#1F3864"/>
+    <rect x="540" y="60" width="400" height="230" rx="14" fill="#E2EFDA" stroke="#2E7D32"/>
+    <rect x="60" y="430" width="400" height="230" rx="14" fill="#FCE8D5" stroke="#BF6C00"/>
+    <rect x="540" y="430" width="400" height="230" rx="14" fill="#FBE0E0" stroke="#C00000"/>
+  </g>
+  <!-- PERSONA -->
+  <text x="260" y="115" text-anchor="middle" font-size="30" font-weight="bold" fill="#1F3864">PERSONA</text>
+  <text x="260" y="155" text-anchor="middle" font-size="21" font-weight="bold" fill="#404040">who the agent is</text>
+  <text x="260" y="195" text-anchor="middle" font-size="19" fill="#595959">role, expertise, tone,</text>
+  <text x="260" y="224" text-anchor="middle" font-size="19" fill="#595959">reasoning style</text>
+  <text x="260" y="262" text-anchor="middle" font-size="18" font-style="italic" fill="#7F7F7F">not "helpful assistant"</text>
+  <!-- TASK -->
+  <text x="740" y="115" text-anchor="middle" font-size="30" font-weight="bold" fill="#2E7D32">TASK</text>
+  <text x="740" y="155" text-anchor="middle" font-size="21" font-weight="bold" fill="#404040">the core mission</text>
+  <text x="740" y="195" text-anchor="middle" font-size="19" fill="#595959">objectives, responsibilities,</text>
+  <text x="740" y="224" text-anchor="middle" font-size="19" fill="#595959">explicit "must not" boundaries</text>
+  <text x="740" y="262" text-anchor="middle" font-size="18" font-style="italic" fill="#7F7F7F">anchors every decision</text>
+  <!-- CONTEXT -->
+  <text x="260" y="485" text-anchor="middle" font-size="30" font-weight="bold" fill="#BF6C00">CONTEXT</text>
+  <text x="260" y="525" text-anchor="middle" font-size="21" font-weight="bold" fill="#404040">operational law</text>
+  <text x="260" y="565" text-anchor="middle" font-size="19" fill="#595959">environment, users, SLAs,</text>
+  <text x="260" y="594" text-anchor="middle" font-size="19" fill="#595959">regulations, conflict rules</text>
+  <text x="260" y="632" text-anchor="middle" font-size="18" font-style="italic" fill="#7F7F7F">not optional background</text>
+  <!-- FORMAT -->
+  <text x="740" y="485" text-anchor="middle" font-size="30" font-weight="bold" fill="#C00000">FORMAT</text>
+  <text x="740" y="525" text-anchor="middle" font-size="21" font-weight="bold" fill="#404040">the output contract</text>
+  <text x="740" y="565" text-anchor="middle" font-size="19" fill="#595959">structure, JSON / Markdown,</text>
+  <text x="740" y="594" text-anchor="middle" font-size="19" fill="#595959">length limits, fallback</text>
+  <text x="740" y="632" text-anchor="middle" font-size="18" font-style="italic" fill="#7F7F7F">predictable = chainable</text>
+  <!-- center hub -->
+  <circle cx="500" cy="360" r="105" fill="#1F3864"/>
+  <text x="500" y="345" text-anchor="middle" font-size="26" font-weight="bold" fill="#FFFFFF">AGENT</text>
+  <text x="500" y="378" text-anchor="middle" font-size="26" font-weight="bold" fill="#FFFFFF">BEHAVIOR</text>
+  <text x="500" y="408" text-anchor="middle" font-size="17" fill="#BDD7EE">the cognitive contract</text>
+</svg>

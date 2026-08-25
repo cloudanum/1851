@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E74B5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="720" fill="#FFFFFF"/>
+  <!-- cycle arrows -->
+  <path d="M 655,85 C 780,85 800,190 800,285" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <path d="M 800,425 C 800,520 760,615 665,615" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <path d="M 345,615 C 250,615 205,520 205,425" fill="none" stroke="#2E74B5" stroke-width="6" marker-end="url(#arrB)"/>
+  <path d="M 205,285 C 205,190 250,85 345,85" fill="none" stroke="#C00000" stroke-width="6" stroke-dasharray="14,10" marker-end="url(#arrB)"/>
+  <!-- boxes -->
+  <rect x="350" y="30" width="300" height="110" rx="14" fill="#DEEBF7" stroke="#2E74B5" stroke-width="3"/>
+  <text x="500" y="90" text-anchor="middle" font-size="32" font-weight="bold" fill="#1F3864">Trained model</text>
+  <rect x="630" y="305" width="330" height="120" rx="14" fill="#DEEBF7" stroke="#2E74B5" stroke-width="3"/>
+  <text x="795" y="355" text-anchor="middle" font-size="30" font-weight="bold" fill="#1F3864">Predictions on</text>
+  <text x="795" y="395" text-anchor="middle" font-size="30" font-weight="bold" fill="#1F3864">test data</text>
+  <rect x="320" y="560" width="360" height="120" rx="14" fill="#DEEBF7" stroke="#2E74B5" stroke-width="3"/>
+  <text x="500" y="608" text-anchor="middle" font-size="29" font-weight="bold" fill="#1F3864">Metrics: precision,</text>
+  <text x="500" y="648" text-anchor="middle" font-size="29" font-weight="bold" fill="#1F3864">recall, F1</text>
+  <rect x="40" y="305" width="330" height="120" rx="14" fill="#DEEBF7" stroke="#2E74B5" stroke-width="3"/>
+  <text x="205" y="355" text-anchor="middle" font-size="30" font-weight="bold" fill="#1F3864">Business</text>
+  <text x="205" y="395" text-anchor="middle" font-size="30" font-weight="bold" fill="#1F3864">decision</text>
+  <!-- center label -->
+  <text x="500" y="330" text-anchor="middle" font-size="36" font-weight="bold" fill="#1F3864">EVALUATION</text>
+  <text x="500" y="375" text-anchor="middle" font-size="36" font-weight="bold" fill="#1F3864">LOOP</text>
+  <text x="500" y="425" text-anchor="middle" font-size="24" fill="#595959">retrain / tune (dashed)</text>
+</svg>

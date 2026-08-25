@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C00000"/>
+    </marker>
+    <marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#BF6C00"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="720" fill="#FFFFFF"/>
+  <text x="500" y="55" text-anchor="middle" font-size="34" font-weight="bold" fill="#1F3864">Match the metric to the business cost</text>
+  <!-- confusion matrix -->
+  <text x="170" y="140" text-anchor="middle" font-size="24" font-weight="bold" fill="#595959">Predicted: YES</text>
+  <text x="370" y="140" text-anchor="middle" font-size="24" font-weight="bold" fill="#595959">Predicted: NO</text>
+  <text x="45" y="270" text-anchor="middle" font-size="24" font-weight="bold" fill="#595959" transform="rotate(-90 45 270)">Actual: YES</text>
+  <text x="45" y="470" text-anchor="middle" font-size="24" font-weight="bold" fill="#595959" transform="rotate(-90 45 470)">Actual: NO</text>
+  <rect x="70" y="170" width="200" height="200" fill="#E2EFDA" stroke="#595959" stroke-width="2"/>
+  <text x="170" y="255" text-anchor="middle" font-size="34" font-weight="bold" fill="#2E7D32">TP</text>
+  <text x="170" y="300" text-anchor="middle" font-size="20" fill="#2E7D32">correct hit</text>
+  <rect x="270" y="170" width="200" height="200" fill="#FBE0E0" stroke="#C00000" stroke-width="3"/>
+  <text x="370" y="255" text-anchor="middle" font-size="34" font-weight="bold" fill="#C00000">FN</text>
+  <text x="370" y="300" text-anchor="middle" font-size="20" fill="#C00000">a miss</text>
+  <rect x="70" y="370" width="200" height="200" fill="#FCE8D5" stroke="#BF6C00" stroke-width="3"/>
+  <text x="170" y="455" text-anchor="middle" font-size="34" font-weight="bold" fill="#BF6C00">FP</text>
+  <text x="170" y="500" text-anchor="middle" font-size="20" fill="#BF6C00">false alarm</text>
+  <rect x="270" y="370" width="200" height="200" fill="#F2F2F2" stroke="#595959" stroke-width="2"/>
+  <text x="370" y="455" text-anchor="middle" font-size="34" font-weight="bold" fill="#595959">TN</text>
+  <text x="370" y="500" text-anchor="middle" font-size="20" fill="#595959">correct reject</text>
+  <!-- arrows to decision boxes -->
+  <path d="M 475,270 C 500,270 505,230 525,230" fill="none" stroke="#C00000" stroke-width="5" marker-end="url(#arrR)"/>
+  <path d="M 475,470 C 500,470 505,510 525,510" fill="none" stroke="#BF6C00" stroke-width="5" marker-end="url(#arrO)"/>
+  <!-- decision boxes -->
+  <rect x="530" y="140" width="430" height="190" rx="14" fill="#FBE0E0" stroke="#C00000" stroke-width="3"/>
+  <text x="745" y="190" text-anchor="middle" font-size="26" font-weight="bold" fill="#C00000">Cost of a MISS is high</text>
+  <text x="745" y="235" text-anchor="middle" font-size="26" font-weight="bold" fill="#1F3864">&#8594; optimize RECALL</text>
+  <text x="745" y="285" text-anchor="middle" font-size="21" fill="#595959">fraud, public safety, medical</text>
+  <rect x="530" y="420" width="430" height="190" rx="14" fill="#FCE8D5" stroke="#BF6C00" stroke-width="3"/>
+  <text x="745" y="470" text-anchor="middle" font-size="26" font-weight="bold" fill="#BF6C00">Cost of a FALSE ALARM is high</text>
+  <text x="745" y="515" text-anchor="middle" font-size="26" font-weight="bold" fill="#1F3864">&#8594; optimize PRECISION</text>
+  <text x="745" y="565" text-anchor="middle" font-size="21" fill="#595959">marketing spend, alert fatigue</text>
+</svg>

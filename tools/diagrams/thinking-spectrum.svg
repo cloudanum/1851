@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E74B5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="720" fill="#FFFFFF"/>
+  <!-- ascending staircase -->
+  <g stroke-width="3">
+    <rect x="30" y="470" width="220" height="180" rx="12" fill="#F2F2F2" stroke="#595959"/>
+    <rect x="275" y="360" width="220" height="290" rx="12" fill="#DEEBF7" stroke="#2E74B5"/>
+    <rect x="520" y="250" width="220" height="400" rx="12" fill="#BDD7EE" stroke="#1F3864"/>
+    <rect x="765" y="140" width="220" height="510" rx="12" fill="#1F3864" stroke="#1F3864"/>
+  </g>
+  <!-- L1 -->
+  <text x="140" y="515" text-anchor="middle" font-size="23" font-weight="bold" fill="#404040">L1 REACTIVE</text>
+  <text x="140" y="550" text-anchor="middle" font-size="18" fill="#595959">trigger &#8594; response,</text>
+  <text x="140" y="577" text-anchor="middle" font-size="18" fill="#595959">no memory</text>
+  <text x="140" y="615" text-anchor="middle" font-size="17" font-style="italic" fill="#2E74B5">prompt: direct commands</text>
+  <!-- L2 -->
+  <text x="385" y="410" text-anchor="middle" font-size="23" font-weight="bold" fill="#1F3864">L2 TOOL-USING</text>
+  <text x="385" y="445" text-anchor="middle" font-size="18" fill="#404040">calls APIs and</text>
+  <text x="385" y="472" text-anchor="middle" font-size="18" fill="#404040">functions</text>
+  <text x="385" y="515" text-anchor="middle" font-size="17" font-style="italic" fill="#2E74B5">prompt: what, how,</text>
+  <text x="385" y="542" text-anchor="middle" font-size="17" font-style="italic" fill="#2E74B5">and when to use tools</text>
+  <!-- L3 -->
+  <text x="630" y="300" text-anchor="middle" font-size="23" font-weight="bold" fill="#1F3864">L3 PLANNING</text>
+  <text x="630" y="335" text-anchor="middle" font-size="18" fill="#404040">decomposes goals</text>
+  <text x="630" y="362" text-anchor="middle" font-size="18" fill="#404040">into steps</text>
+  <text x="630" y="405" text-anchor="middle" font-size="17" font-style="italic" fill="#1F3864">prompt: "think step</text>
+  <text x="630" y="432" text-anchor="middle" font-size="17" font-style="italic" fill="#1F3864">by step" (CoT)</text>
+  <!-- L4 -->
+  <text x="875" y="190" text-anchor="middle" font-size="23" font-weight="bold" fill="#FFFFFF">L4 LEARNING</text>
+  <text x="875" y="225" text-anchor="middle" font-size="18" fill="#DEEBF7">reflects, evaluates,</text>
+  <text x="875" y="252" text-anchor="middle" font-size="18" fill="#DEEBF7">self-corrects</text>
+  <text x="875" y="295" text-anchor="middle" font-size="17" font-style="italic" fill="#BDD7EE">prompt: metacognitive</text>
+  <text x="875" y="322" text-anchor="middle" font-size="17" font-style="italic" fill="#BDD7EE">blueprint</text>
+  <!-- ascending arrow -->
+  <path d="M 70,430 C 350,330 650,180 920,80" fill="none" stroke="#C00000" stroke-width="5" stroke-dasharray="14,10" marker-end="url(#arrB)"/>
+  <text x="480" y="240" text-anchor="middle" font-size="21" font-weight="bold" fill="#C00000" transform="rotate(-22 480 240)">prompt sophistication must scale with capability</text>
+  <!-- base caption -->
+  <text x="500" y="695" text-anchor="middle" font-size="20" fill="#595959">Match the cognitive prompting pattern to the agent's level — no more, no less</text>
+</svg>
