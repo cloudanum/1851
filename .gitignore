@@ -6,6 +6,9 @@ __MACOSX/
 # Jupyter
 .ipynb_checkpoints/
 
+# Secrets — never commit API keys
+.env
+
 # Python
 __pycache__/
 .venv-*/
